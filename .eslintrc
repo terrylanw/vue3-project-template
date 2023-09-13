@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:tailwindcss/recommended", "@antfu"],
+  "overrides": [
+    {
+      "files": ["src/**/*.**"],
+      "rules": {
+        "no-console": "warn"
+      }
+    }
+  ],
+  "rules": {
+    "tailwindcss/no-custom-classname": "off"
+  }
+}
